@@ -12,7 +12,7 @@ MyNiga search engine adalah website search engine seperti pada umumnya, untuk da
 
 ```bash
 # Clone this repo
-https://github.com/bagusok/myniga
+https://github.com/Cianjur-GBF/MYnigaSE
 
 # Install All Module
 npm install
@@ -35,11 +35,7 @@ npm start
 
 ## Preview Images
 
-![indonesia   MyNiga Search](https://user-images.githubusercontent.com/52571584/211183225-71bd2482-2853-4704-b484-352f93e4ad39.png)
-
-![indonesia   MyNiga Search (1)](https://user-images.githubusercontent.com/52571584/211183230-b6955f50-c8e1-4391-8cd9-1d1f2789183c.png)
-
-![indonesia   MyNiga Search (2)](https://user-images.githubusercontent.com/52571584/211183237-23219e5f-b8ca-4cb8-87ac-426cd20dd3cc.png)
 
 
-
+## Disclaimer
+This Repo is Forked and modified from [Gatotkaca](https://github.com/bagusok/myniga 'Google this')
