@@ -38,4 +38,4 @@ npm start
 
 
 ## Disclaimer
-This Repo is Forked and modified from [Gatotkaca](https://github.com/bagusok/myniga 'Google this')
+This Repo is Forked and modified from [Gatotkaca](https://github.com/bagusok/gatotkaca 'Google this')
