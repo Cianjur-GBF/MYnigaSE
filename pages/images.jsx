@@ -66,14 +66,14 @@ export default function search(props) {
 
   return (
     <>
-      <HeadMeta title={q + ' | Gatotkaca Search'} />
+      <HeadMeta title={q + ' | MyNiga Search'} />
       <div className="min-h-screen flex flex-col justify-between px-3 md:px-[2rem] py-6">
         <div>
           <div className="flex flex-col md:flex-row justify-between gap-6 text-center items-center  w-full">
             <div className="form-group flex flex-col md:flex-row items-center gap-4 md:gap-12 relative w-full">
               <Link href="/" passHref>
                 <a href="#" className="text-2xl font-semibold text-orange-400">
-                  Gatot Kaca
+                  My Niga
                 </a>
               </Link>
               <form

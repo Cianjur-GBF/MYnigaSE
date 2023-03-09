@@ -1,10 +1,10 @@
 <div align="center">
 
-# Gatotkaca Search Engine
+# MyNiga Search Engine
 
 License : MIT
 <br>
-Gatotkaca search engine adalah website search engine seperti pada umumnya, untuk datanya sendiri adalah hasil scraping dari goole.
+MyNiga search engine adalah website search engine seperti pada umumnya, untuk datanya sendiri adalah hasil scraping dari goole.
 
 </div>
 
@@ -12,7 +12,7 @@ Gatotkaca search engine adalah website search engine seperti pada umumnya, untuk
 
 ```bash
 # Clone this repo
-https://github.com/bagusok/gatotkaca
+https://github.com/bagusok/myniga
 
 # Install All Module
 npm install
@@ -35,11 +35,11 @@ npm start
 
 ## Preview Images
 
-![indonesia   Gatotkaca Search](https://user-images.githubusercontent.com/52571584/211183225-71bd2482-2853-4704-b484-352f93e4ad39.png)
+![indonesia   MyNiga Search](https://user-images.githubusercontent.com/52571584/211183225-71bd2482-2853-4704-b484-352f93e4ad39.png)
 
-![indonesia   Gatotkaca Search (1)](https://user-images.githubusercontent.com/52571584/211183230-b6955f50-c8e1-4391-8cd9-1d1f2789183c.png)
+![indonesia   MyNiga Search (1)](https://user-images.githubusercontent.com/52571584/211183230-b6955f50-c8e1-4391-8cd9-1d1f2789183c.png)
 
-![indonesia   Gatotkaca Search (2)](https://user-images.githubusercontent.com/52571584/211183237-23219e5f-b8ca-4cb8-87ac-426cd20dd3cc.png)
+![indonesia   MyNiga Search (2)](https://user-images.githubusercontent.com/52571584/211183237-23219e5f-b8ca-4cb8-87ac-426cd20dd3cc.png)
 
 
 

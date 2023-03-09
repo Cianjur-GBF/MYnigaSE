@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function User() {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
-    window.location.href = 'https://bagusok.github.io/';
+    window.location.href = 'https://github.com/Cianjur-GBF/MYnigaSE';
   };
 
   return (
@@ -27,7 +27,7 @@ export default function User() {
               height="40"
               onClick={() => setIsOpen(!isOpen)}
             />
-            <h2 className="text-sm">Hi, Bro</h2>
+            <h2 className="text-sm">Hi, Niggest</h2>
           </div>
           <div
             className="form-group flex flex-row gap-3 rounded-md hover:bg-yellow-400 p-2 items-center"
@@ -35,7 +35,7 @@ export default function User() {
           >
             <FiUser />
             <h2 className="text-sm">
-              <a href="https://bagusok.github.io/">Author</a>
+              <a href="https://github.com/Cianjur-GBF/MYnigaSE">Author</a>
             </h2>
           </div>
         </div>

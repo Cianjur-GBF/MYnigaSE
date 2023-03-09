@@ -1,9 +1,7 @@
 import google from 'googlethis';
-import * as yt from 'youtube-search-without-api-key';
-
-import { search } from 'youtube-search-no-limit';
 
 export default async function handler(req, res) {
+
   if (req.method !== 'GET')
     return res
       .status(405)
@@ -19,9 +17,9 @@ export default async function handler(req, res) {
       .status(404)
       .json({ status: 'failed', message: 'Query tidak boleh kosong.' });
 
+      
   const searchQuery = req.query.q;
   const page = req.query.page - 1 || 0;
-  let newVideos;
 
   const options = {
     page: page,
@@ -34,19 +32,6 @@ export default async function handler(req, res) {
 
   const response = await google.search(searchQuery, options);
 
-  // if (response.videos) {
-  //   const videos = await search(searchQuery);
-  //   newVideos = videos.map((a) => {
-  //     return {
-  //       id: a.id,
-  //       url: a.url,
-  //       title: a.title,
-  //       thumbnails: a.thumbnails[0],
-  //       duration: a.durationText,
-  //       channel: { name: a.channel.name, url: a.channel.url },
-  //     };
-  //   });
-  // }
 
   let knowledge_panel = response.knowledge_panel;
 

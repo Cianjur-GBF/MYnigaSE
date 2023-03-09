@@ -29,14 +29,17 @@ export default function Home() {
       <div className="flex flex-col min-h-screen px-5 relative">
         <nav className="flex justify-end px-3 py-2 h-16 md:min-h-8">
           <div className="flex h-full flex-row gap-3 items-center">
-            <a href="#" className="text-sm font-normal hover:opacity-75">
-              GKMail
+            <a href="https://toko.niga.my.id" className="text-sm font-normal hover:opacity-75">
+              NigaToko
+            </a>
+            <a href="https://mail.niga.my.id" className="text-sm font-normal hover:opacity-75">
+              NigaMail
             </a>
             <a
-              href="#"
+              href="https://store.steampowered.com/app/1201270/A_Space_for_the_Unbound/"
               className="text-sm font-normal hover:opacity-75 mr-12 mdmr-0"
             >
-              Gambar
+              Gamers
             </a>
 
             <User />
@@ -44,7 +47,7 @@ export default function Home() {
         </nav>
         <div className="flex flex-col w-full items-center text-center gap-4 mt-[6rem]">
           <h1 className="text-3xl md:text-5xl font-semibold tracking-wide text-orange-400">
-            Gatot Kaca
+            My Niga
           </h1>
           <div className="md:w-3/6 mt-8">
             <form onSubmit={(e) => handleSearch(e)}>
