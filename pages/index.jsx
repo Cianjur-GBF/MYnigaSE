@@ -36,10 +36,10 @@ export default function Home() {
               NigaMail
             </a>
             <a
-              href="https://store.steampowered.com/app/1201270/A_Space_for_the_Unbound/"
+              href="https://discord.gg/NruyQ8aa"
               className="text-sm font-normal hover:opacity-75 mr-12 mdmr-0"
             >
-              Gamers
+              NiGaming
             </a>
 
             <User />
@@ -57,7 +57,7 @@ export default function Home() {
                   className="h-12 w-full rounded-full px-[4rem] py-2 border border-slate-200 shadow-md focus:border-2 focus:border-slate-400 focus:outline-none"
                   onChange={(e) => setInput(e.target.value)}
                   value={input}
-                  placeholder="Cari apa..."
+                  placeholder="Cari apa Niga..."
                 />
                 <div className="icon z-50 w-fit text-2xl font-bold absolute left-5 top-auto bottom-3 text-slate-400">
                   <FiSearch />
